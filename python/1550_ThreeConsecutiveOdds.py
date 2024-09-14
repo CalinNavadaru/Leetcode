@@ -11,6 +11,4 @@ class Solution:
                 counter = 0
             if counter == 3:
                 return True
-        if counter == 3:
-            return True
-        return False
+        return counter == 3
